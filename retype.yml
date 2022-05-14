@@ -1,0 +1,21 @@
+input: .
+output: .retype
+url: https://docs.0xbitcoin.org
+branding:
+  title: 0xBitcoin
+  label: Docs
+  logo: /assets/0xbitcoin-logo-flat2.svg
+links:
+- text: CoinGecko
+  link: https://www.coingecko.com/en/coins/0xbitcoin
+- text: Uniswap Info 
+  link: https://info.uniswap.org/#/tokens/0xb6ed7644c69416d67b522e20bc294a9a9b405b31
+- text: White Paper
+  link: https://github.com/0xbitcoin/white-paper
+- text: Dune Analytics
+  link: https://dune.com/infernaltoast/0xBTC
+- text: Smart Contract 
+  link: https://etherscan.io/address/0xb6ed7644c69416d67b522e20bc294a9a9b405b31#code
+
+footer:
+  copyright: "0xBitcoin (0xBTC) Code and Documentation is Public Domain CC0."
