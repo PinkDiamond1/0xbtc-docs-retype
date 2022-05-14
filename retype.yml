@@ -1,6 +1,13 @@
-input: .
-output: .retype
+input: src
+output: dist
 url: https://docs.0xbitcoin.org
+
+server:
+  host: 0.0.0.0
+  port: 3000
+  watch: { polling: 3000 }
+
+
 branding:
   title: 0xBitcoin
   label: Docs
@@ -16,6 +23,18 @@ links:
   link: https://dune.com/infernaltoast/0xBTC
 - text: Smart Contract 
   link: https://etherscan.io/address/0xb6ed7644c69416d67b522e20bc294a9a9b405b31#code
+
+server:
+  watch:
+    mode: memory
+
+editor:
+  enabled: false # Default is true
+
+edit:
+  repo: "https://github.com/0xbitcoin/0xbtc-docs-retype/"
+  branch: main 
+  base: src 
 
 footer:
   copyright: "0xBitcoin (0xBTC) Code and Documentation is Public Domain CC0."
