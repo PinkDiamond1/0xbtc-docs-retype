@@ -7,11 +7,13 @@ server:
   port: 5000
   watch: { polling: 3000 }
 
+favicon: /assets/0xbitcoin-logo-flat2.svg
 
 branding:
   title: 0xBitcoin
   label: Docs
   logo: /assets/0xbitcoin-logo-flat2.svg
+
 links:
 - text: CoinGecko
   link: https://www.coingecko.com/en/coins/0xbitcoin
@@ -24,9 +26,6 @@ links:
 - text: Smart Contract 
   link: https://etherscan.io/address/0xb6ed7644c69416d67b522e20bc294a9a9b405b31#code
 
-server:
-  watch:
-    mode: memory
 
 editor:
   enabled: false # Default is true
