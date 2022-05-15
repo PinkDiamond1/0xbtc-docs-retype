@@ -1,5 +1,5 @@
 input: src
-output: docs
+output: info
 url: https://docs.0xbitcoin.org
 
 server:
