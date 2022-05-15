@@ -5,15 +5,23 @@ icon: home
 
 # 0xBitcoin Documentaton 
 
-0xBitcoin (0xBTC) is pure-mined cryptocurrency built inside of the Ethereum Mainnet EVM.  The contract is neutral with no owner.  Since being deployed in 2018, coins have been minted from the smart contract over 100,000 times.  
+```
 
-### Pure Mined
-Miners use specialized computers called FPGAs and ASICs to solve mathematical challenges.  This is what creates all 0xBTC tokens in order to make 0xBitcoin the most decentralized and neutral asset on Mainnet. 
+Protocol: ERC20 
 
-### Native
-Most importantly, since the 0xBitcoin contract is directly deployed in Ethereum Mainnet, no bridges or IOUs are needed to account for 0xBitcoins in an Ethereum wallet.  This way, users can self-custody, stake, and trade 0xBTC with zero-trust in any third party.   The immutable smart contract itself is the only system used end-to-end.
+Network: Ethereum Mainnet 
+
+Contract Address:  0xb6ed7644c69416d67b522e20bc294a9a9b405b31
+
+```
+ 
+
 
 ![](/assets/mine.gif)
 
-
+- Maximum supply of 21,000,000
+- Initial supply of 0
+- All tokens must be mined with auto-adjusting Proof of Work (adjustment ruleset in solidity) 
+- Initial reward is 50 coins 
+- Halvenings occur when half of the remaining supply has been mined (such that the first halvening occurs at 10.5m supply.)
  
