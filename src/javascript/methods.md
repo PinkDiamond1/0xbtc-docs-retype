@@ -57,7 +57,7 @@ returns the number of times that the mint method has been called
 returns the number of halvenings that have occured
 
 **maxSupplyForEra()**  
-returns the next tokensMinted amount at which the rewardEra will increme
+returns the next tokensMinted amount at which the rewardEra will increment
 
  
 
